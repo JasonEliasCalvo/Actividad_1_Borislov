@@ -111,7 +111,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -827503085, guid: 0a8d3c9f8cd06fb439181c298a9522ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -257,4 +257,3 @@ MonoBehaviour:
   visualTransform: {fileID: 750679922218279282}
   triggerTransform: {fileID: 1570484843035450924}
   moveSpeed: 8
-  pointerDetectionRange: 100

@@ -7,7 +7,7 @@ public class PointerTrigger : MonoBehaviour
 
     private void Start()
     {
-        hackingMiniGame = FindFirstObjectByType<HackingMiniGame>();
+        hackingMiniGame = FindAnyObjectByType<HackingMiniGame>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -27,6 +27,8 @@ public class PointerTrigger : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        if (other == null) return;
+
         TriangleHacking triangle = other.GetComponentInParent<TriangleHacking>();
         if (triangle != null && hackingMiniGame.CurrentTarget == triangle)
         {

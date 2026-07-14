@@ -5,6 +5,7 @@ public class PlayerFighter : FighterEntity
 {
     [Header("Player Specifics")]
     public Transform cameraTransform;
+    public bool canMove;
 
     // --- VARIABLES DE DASH (Necesarias para DashState) ---
     [Header("Dash Settings")]
@@ -46,8 +47,34 @@ public class PlayerFighter : FighterEntity
         controls.Gameplay.Interact.performed += ctx => interactPressed = true;
     }
 
-    void OnEnable() => controls.Enable();
-    void OnDisable() => controls.Disable();
+    void OnEnable()
+    {
+        controls?.Enable();
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.InitialGameStart += HandleGameStart;
+            GameManager.instance.InitialGameEnd += HandleGameEnd;
+        }
+    }
+
+    void OnDisable()
+    {
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.InitialGameStart -= HandleGameStart;
+            GameManager.instance.InitialGameEnd -= HandleGameEnd;
+        }
+
+        controls?.Disable();
+    }
+
+    private void HandleGameStart() => canMove = true;
+    private void HandleGameEnd() => canMove = false;
 
     protected override void Update()
     {
@@ -62,6 +89,8 @@ public class PlayerFighter : FighterEntity
     public override Vector3 GetMovementInput()
     {
         if (rawInput.sqrMagnitude < 0.1f) return Vector3.zero;
+
+        if (!canMove) return Vector3.zero;
 
         Vector3 forward = cameraTransform.forward;
         Vector3 right = cameraTransform.right;
@@ -122,14 +151,10 @@ public class PlayerFighter : FighterEntity
 
     private void HandleMovement()
     {
-        if (CameraManager.instance.currentStyle == CameraStyle.Basic || CameraManager.instance.currentStyle == CameraStyle.Topdown)
+        if (CameraManager.instance.currentStyle == CameraStyle.Basic)
         {
             //Vector3 finalVelocity = horizontalVelocity + Vector3.up * verticalVelocity;
             //controller.Move(finalVelocity * Time.deltaTime);
-        }
-        else if (CameraManager.instance.currentStyle == CameraStyle.Combat)
-        {
-
         }
     }
 }

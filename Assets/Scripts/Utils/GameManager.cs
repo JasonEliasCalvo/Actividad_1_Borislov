@@ -1,10 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public bool CanMoveCamera { get; private set; } = true;
 
     [SerializeField] private Timer timer;
 
@@ -12,11 +12,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] float initiateTime;
 
     public delegate void DelegatedGameStates();
-    public DelegatedGameStates eventGameStart;
-    public DelegatedGameStates eventGameEnd;
-    public DelegatedGameStates eventHackingMiniGameStart;
-    public DelegatedGameStates eventHackingMiniGameReset;
-    public DelegatedGameStates eventHackingMiniGameEnd;
+    public DelegatedGameStates InitialGameStart;
+    public DelegatedGameStates InitialGameEnd;
 
     private void Awake()
     {
@@ -31,21 +28,30 @@ public class GameManager : MonoBehaviour
         Invoke(nameof(GameStart), 0.2f);
     }
 
-    public void GameStart() => eventGameStart?.Invoke();
-    public void GamePause() { }
-    public void GameResume() { }
+    public void GameStart() => InitialGameStart?.Invoke();
 
-    public void GameEnd() => eventGameEnd?.Invoke();
-
-    public void HackingMiniGameStart()
+    public void GamePause()
     {
-        Debug.Log("initiateTime: " + initiateTime);
-        timer.eventEndTime += ResetHackingMiniGame;
-        timer.Initiate(initiateTime);
-        eventHackingMiniGameStart?.Invoke();
+        if (Time.timeScale == 1f)
+        {
+            UIManager.instance.ShowPausePanel(true);
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            UIManager.instance.ShowPausePanel(false);
+            Time.timeScale = 1f;
+        }
     }
 
-    public void ResetHackingMiniGame() => eventHackingMiniGameReset?.Invoke();
-    public void HackingMiniGameEnd() => eventHackingMiniGameEnd?.Invoke();
+    public void GameResume() { }
+
+    public void GameEnd() => InitialGameEnd?.Invoke();
+
     public Timer GetTimer() => timer;
+
+    public void MovingCamera(bool value)
+    {
+        CanMoveCamera = value;
+    }
 }
