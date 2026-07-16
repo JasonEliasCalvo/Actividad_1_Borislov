@@ -102,6 +102,8 @@ public class PlayerFighter : FighterEntity
 
     public override bool GetAttackInput()
     {
+        if (!canMove) return false;
+
         if (attackPressed)
         {
             attackPressed = false;
@@ -136,7 +138,6 @@ public class PlayerFighter : FighterEntity
             return;
         }
 
-        // Caso 2: INTERACTUAR (Tirar cajas, etc)
         if (interactPressed)
         {
             // CheckDistanceToBox()...
@@ -147,14 +148,5 @@ public class PlayerFighter : FighterEntity
     public void StartDashCooldown()
     {
         dashCooldownCounter = dashCooldown;
-    }
-
-    private void HandleMovement()
-    {
-        if (CameraManager.instance.currentStyle == CameraStyle.Basic)
-        {
-            //Vector3 finalVelocity = horizontalVelocity + Vector3.up * verticalVelocity;
-            //controller.Move(finalVelocity * Time.deltaTime);
-        }
     }
 }

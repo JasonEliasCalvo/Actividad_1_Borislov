@@ -22,7 +22,10 @@ public class CameraController : MonoBehaviour
     public float rotationSmooth = 0.1f;
     public Vector2 sensitivity = new Vector2(1, 1);
 
-    [Header("Inclinación tipo God of War")]
+    [Header("Suavizado de Colisión/Posicionamiento")]
+    public float collisionSmoothSpeed = 10f;
+
+    [Header("Inclinación")]
     public float tiltAmount = 10f;
     public float tiltSmooth = 10f;
     private float currentTilt = 0f;
@@ -35,6 +38,7 @@ public class CameraController : MonoBehaviour
     private float defaultDistance;
     private float newDistance;
 
+    private float currentDistance;
     void Start()
     {
         follow = tpTarget;
@@ -44,6 +48,7 @@ public class CameraController : MonoBehaviour
 
         defaultDistance = (maxDistace + minDistance) / 2;
         newDistance = defaultDistance;
+        currentDistance = defaultDistance;
 
         Cursor.lockState = CursorLockMode.Locked;
         camera = cam.GetComponent<Camera>();
@@ -92,7 +97,6 @@ public class CameraController : MonoBehaviour
             angle.y = Mathf.Clamp(angle.y, -verticalLimit * Mathf.Deg2Rad, verticalLimit * Mathf.Deg2Rad);
         }
 
-        // Zoom
         float scrollDelta = Input.GetAxis("Mouse ScrollWheel");
 
         if (scrollDelta > 0)
@@ -115,17 +119,23 @@ public class CameraController : MonoBehaviour
 
         // Colisiones
         RaycastHit hit;
-        float distance = defaultDistance;
+        float targetDistance = defaultDistance;
         Vector3[] points = GetCameraCollisionPoints(direction);
 
         foreach (Vector3 point in points)
         {
             if (Physics.Raycast(point, direction, out hit, defaultDistance))
-                distance = Mathf.Min((hit.point - follow.position).magnitude, distance);
+            {
+                float hitDist = (hit.point - follow.position).magnitude;
+                targetDistance = Mathf.Min(hitDist, targetDistance);
+            }
         }
 
         // Posición de la cámara
-        transform.position = follow.position + direction * distance;
+        float lerpSpeed = (targetDistance < currentDistance) ? collisionSmoothSpeed * 1.5f : collisionSmoothSpeed;
+        currentDistance = Mathf.Lerp(currentDistance, targetDistance, Time.deltaTime * lerpSpeed);
+
+        transform.position = follow.position + direction * currentDistance;
 
         // Rotación hacia el jugador
         transform.rotation = Quaternion.LookRotation(follow.position - transform.position);

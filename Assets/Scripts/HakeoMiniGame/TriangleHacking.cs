@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class TriangleHacking : MonoBehaviour
 {
 
-    [SerializeField] private Image triangleImage;
+    public Image triangleImage;
     [SerializeField] private Transform visualTransform;
     [SerializeField] private Transform triggerTransform;
     [SerializeField] private float moveSpeed = 8f;
@@ -23,17 +23,22 @@ public class TriangleHacking : MonoBehaviour
         currentRadius = radius;
         UpdateAppearance();
         visualTransform.localPosition = targetLocalPosition;
+
         triggerTransform.position = visualTransform.position;
+
     }
 
     private void Update()
     {
-        visualTransform.localPosition = Vector3.Lerp(visualTransform.localPosition, targetLocalPosition, moveSpeed * Time.deltaTime);  
+        if (!_isConnected)
+            triggerTransform.position = visualTransform.position;
+
+        visualTransform.localPosition = Vector3.Lerp(visualTransform.localPosition, targetLocalPosition, moveSpeed * Time.deltaTime);
     }
 
     public void ToggleConnection()
     {
-        _isConnected = !_isConnected; 
+        _isConnected = !_isConnected;
         UpdateAppearance();
     }
 

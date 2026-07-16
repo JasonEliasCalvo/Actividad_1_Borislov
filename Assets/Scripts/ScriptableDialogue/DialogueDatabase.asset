@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: DialogueDatabase
   m_EditorClassIdentifier: Assembly-CSharp::DialogueDatabase
   dialogues:
+  - {fileID: 11400000, guid: 5913906c9ff4baa4a9eded54ef5318f4, type: 2}
   - {fileID: 11400000, guid: a1e8372814d72324c8fbd2758fab661f, type: 2}
   - {fileID: 11400000, guid: 83363fe7aab0a4246a41c5b4a21554be, type: 2}
-  - {fileID: 11400000, guid: 5913906c9ff4baa4a9eded54ef5318f4, type: 2}
-  - {fileID: 11400000, guid: af5b1a192668fb14692911aeeef47716, type: 2}
+  - {fileID: 11400000, guid: d4e3da19a6ff25e488921e59b8a234ad, type: 2}
   - {fileID: 11400000, guid: f28e8b63f7466dd4492d16b57154a651, type: 2}
+  - {fileID: 11400000, guid: af5b1a192668fb14692911aeeef47716, type: 2}
+  - {fileID: 11400000, guid: 3d82554b40eb8ea4bb25ed14bba2f994, type: 2}
