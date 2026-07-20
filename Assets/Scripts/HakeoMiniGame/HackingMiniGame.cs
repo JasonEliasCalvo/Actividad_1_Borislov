@@ -136,7 +136,6 @@ public class HackingMiniGame : MonoBehaviour
 
         Debug.Log("¡Hackeo exitoso!");
 
-        onHackCompleted?.Invoke();
         HideMiniGame();
     }
 
@@ -158,6 +157,8 @@ public class HackingMiniGame : MonoBehaviour
         panel.localScale = Vector3.zero;
         panel.gameObject.SetActive(true);
         panel.DOScale(1, 0.5f).SetEase(Ease.OutBack);
+        GameManager.instance.MovingCamera(false);
+        GameManager.instance.InitialGameEnd();
     }
 
     public void HideMiniGame()
@@ -179,6 +180,11 @@ public class HackingMiniGame : MonoBehaviour
                 }
 
                 Debug.Log(centerPoint.childCount);
+
+                GameManager.instance.MovingCamera(true);
+                GameManager.instance.InitialGameStart();
+
+                onHackCompleted?.Invoke();
             });
     }
 }

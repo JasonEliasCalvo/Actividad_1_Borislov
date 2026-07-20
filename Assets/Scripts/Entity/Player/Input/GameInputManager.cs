@@ -29,7 +29,7 @@ public class GameInputManager : MonoBehaviour
         controls.UI.SkipDialogue.performed += OnSkipDialogueInput;
         controls.UI.OnScrollDialogueChoices.performed += OnScrollDialogueChoicesInput;
 
-        controls.Enable();
+        controls.Gameplay.Enable();
         controls.Gameplay.Interact.performed += OnInteractInput;
         controls.Gameplay.Interact.started += ctx => OnInteractStarted?.Invoke();
         controls.Gameplay.Interact.canceled += ctx => OnInteractCanceled?.Invoke();
@@ -80,6 +80,19 @@ public class GameInputManager : MonoBehaviour
     {
         Debug.Log("Pause Input Detected");
 
+        bool isDialogueActive = DialogueSystem.instance != null && DialogueSystem.instance.dialoguePanel.activeSelf;
+        bool isHakingActive = HackingMiniGame.Active != null && HackingMiniGame.Active.isActive;
+        bool isTutorialActive = TutorialController.instance != null && TutorialController.instance.TutorialPanel.activeSelf;
+
+        if (isHakingActive) return;
+
+        if (isTutorialActive)
+        {
+            TutorialController.instance.HideTutorial();
+            Debug.Log("Tutorial Panel Active, Hiding Tutorial");
+            return;
+        }
+
         if (DialogueSystem.instance.dialoguePanel.activeSelf)
         {
             OnSkipDialoguePressed?.Invoke();
@@ -100,14 +113,12 @@ public class GameInputManager : MonoBehaviour
 
         if (show)
         {
-            UIManager.instance.ShowSlected(false);
             GameManager.instance.GameEnd();
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
         else
         {
-            UIManager.instance.ShowSlected(true);
             GameManager.instance.GameStart();
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;

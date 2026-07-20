@@ -1,10 +1,8 @@
 using DG.Tweening;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -13,14 +11,7 @@ public class UIManager : MonoBehaviour
 
     [Header("UI Elements")]
     public GameObject pausePanel;
-    public GameObject confirmPanel;
-    public GameObject warningPanel;
-    public GameObject securityPanel;
     public GameObject interactionPanel;
-    public CanvasGroup tutorialPanel;
-    public bool tutorialShown;
-    public TextMeshProUGUI confirmText;
-    public TextMeshProUGUI warningText;
 
     [Header("UI Setting")]
     public bool showCursor = false;
@@ -37,15 +28,9 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
     }
 
-    public void LateUpdate()
-    {
-        securityPanel.SetActive(IsPanelActive());
-    }
-
     // -------------------------
     // API
     // -------------------------
-
     public void ShowPausePanel(bool state)
     {
         if (state)
@@ -58,18 +43,6 @@ public class UIManager : MonoBehaviour
             ShowPanel(pausePanel, false);
             GameManager.instance.GameStart();
         }
-    }
-
-    public void ShowConfirmPanel(bool state, string message = "")
-    {
-        confirmText.text = message;
-        ShowPanel(confirmPanel, state);
-    }
-
-    public void ShowWarningPanel(bool state, string message = "")
-    {
-        warningText.text = message;
-        ShowPanel(warningPanel, state);
     }
 
     public void ShowInteractPanel(bool state)
@@ -85,7 +58,6 @@ public class UIManager : MonoBehaviour
             GameManager.instance.GameEnd();
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            ShowSlected(false);
         }
         else
         {
@@ -93,32 +65,7 @@ public class UIManager : MonoBehaviour
             GameManager.instance.GameStart();
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-            ShowSlected(true);
         }
-    }
-
-    public void ShowSlected(bool state)
-    {
-        return; // Deshabilitado temporalmente
-    }
-
-    public void ShowTutorial()
-    {
-        if (tutorialShown == true) return;
-
-        tutorialShown = true; // Asegura que solo pase una vez
-
-        // Secuencia de animación
-        tutorialPanel.gameObject.SetActive(true);
-        tutorialPanel.alpha = 0; // Empezar invisible
-
-        // Fade In
-        tutorialPanel.DOFade(1f, 1f).OnComplete(() => {
-            // Esperar 4 segundos visible y luego hacer Fade Out
-            tutorialPanel.DOFade(0f, 1.5f)
-                .SetDelay(4f)
-                .OnComplete(() => tutorialPanel.gameObject.SetActive(false));
-        });
     }
 
     // -------------------------
@@ -128,10 +75,7 @@ public class UIManager : MonoBehaviour
     public bool IsPanelActive()
     {
         bool isActive =
-          (pausePanel != null && pausePanel.activeSelf) ||
-      
-          (confirmPanel != null && confirmPanel.activeSelf) ||
-          (warningPanel != null && warningPanel.activeSelf) ;
+          (pausePanel != null && pausePanel.activeSelf);
 
         return isActive;
     }
@@ -209,28 +153,7 @@ public class UIManager : MonoBehaviour
     // Wrappers para Inspector
     // -------------------------
 
-    public void ShowConfirmPanelOn(string message) => ShowConfirmPanel(true, message);
-    public void ShowConfirmPanelOff() => ShowConfirmPanel(false);
-    public void ShowWarningPanelOn(string message) => ShowWarningPanel(true, message);
-    public void ShowWarningPanelOff() => ShowWarningPanel(false);
-
     public void ShowPanelOn(GameObject panel) => ShowPanel(panel, true);
     public void ShowPanelOff(GameObject panel) => ShowPanel(panel, false);
     public void ShowAfterDelay(GameObject panel) => ShowPanelAfterDelay(panel);
-    public void ShowTutorial(int tutorialID)
-    {
-        //TutorialInfo info = tutorialDatabase.GetTutorialByID(tutorialID);
-
-        GameManager.instance.MovingCamera(false);
-        GameManager.instance.InitialGameEnd();
-
-        // info = null;
-    }
-
-    public void HideTutorial()
-    {
-        GameManager.instance.MovingCamera(true);
-        GameManager.instance.InitialGameStart();
-
-    }
 }

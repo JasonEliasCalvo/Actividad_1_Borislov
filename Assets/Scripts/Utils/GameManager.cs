@@ -6,11 +6,6 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public bool CanMoveCamera { get; private set; } = true;
 
-    [SerializeField] private Timer timer;
-
-    [Header("Minijuego")]
-    [SerializeField] float initiateTime;
-
     public delegate void DelegatedGameStates();
     public DelegatedGameStates InitialGameStart;
     public DelegatedGameStates InitialGameEnd;
@@ -48,7 +43,10 @@ public class GameManager : MonoBehaviour
 
     public void GameEnd() => InitialGameEnd?.Invoke();
 
-    public Timer GetTimer() => timer;
+    public void LoadScene(int sceneIndex)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneIndex);
+    }
 
     public void MovingCamera(bool value)
     {

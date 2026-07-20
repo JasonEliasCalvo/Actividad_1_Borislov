@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 // Requerimos estos componentes obligatoriamente
 [RequireComponent(typeof(CharacterController))]
@@ -10,6 +11,7 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
     public Animator animator;
     protected HealthComponent health;
     public CharacterController controller;
+    public UnityEvent onDeath;
 
     [Header("Movement Stats")]
     public float walkSpeed = 5f;

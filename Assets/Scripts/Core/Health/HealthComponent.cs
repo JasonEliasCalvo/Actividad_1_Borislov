@@ -13,8 +13,8 @@ public class HealthComponent : MonoBehaviour
     [SerializeField] private float maxHealth = 100f;
 
     public float CurrentHealth { get; private set; }
+    public float MaxHealth => maxHealth;
 
-    // Eventos
     public event Action<float> OnDamageTaken;
     public event Action OnHealed;
     public event Action OnDeath;

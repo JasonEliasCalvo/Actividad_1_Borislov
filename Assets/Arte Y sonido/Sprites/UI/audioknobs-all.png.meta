@@ -1,0 +1,5208 @@
+fileFormatVersion: 2
+guid: ae6c2c53341252241a22efb49a3bb135
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: audioknobs-all_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 467
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f9cb2d294156448a74534a90810b76
+      internalID: 12287168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 484
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494e43d82aabfc24d9d7ef55d9a91719
+      internalID: 1195328714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 484
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dada5a8a794194b953058af767ed44
+      internalID: 39630954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 484
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bec899963ad3f741bf46dd025541df8
+      internalID: 745333684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 484
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e4d1977d9e4254f98b897322d914bb
+      internalID: -1951126903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 464
+        width: 108
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272da8b3626ddbc48ba9672fe8b94f01
+      internalID: 566393850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 476
+        width: 85
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98484fd03a4a2149b04ac0bcab9d283
+      internalID: 408459134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 467
+        width: 85
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f653062f6447f940837936824b56080
+      internalID: 1088852876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 375
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee6e2f56e9622d41a31d9d955cf6211
+      internalID: -409285514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 403
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83be643c888a9c641b78d2a953e6798c
+      internalID: 2115665304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 440
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d06b7d670631a408c4c10bc9184398
+      internalID: -581303135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 440
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a44bd15acc2b2c4e82a8901d67412a8
+      internalID: -1702414016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 440
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc083fc92b6d1d247b7776bc12e6c8d9
+      internalID: -1995562100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_21
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 447
+        width: 75
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa353dcf4f0a9442bd7d1f96fad4e6f
+      internalID: -529204137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_22
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 422
+        width: 85
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fd5a70d386d854bb4bfa03ef384054
+      internalID: -1886331595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 433
+        width: 68
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459e2a00b6388114e8e8e7d7f8f390a4
+      internalID: 1400896646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_31
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 425
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d132813872b05cb4d9e9dd328cf1958c
+      internalID: 971273815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_32
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 425
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79adce6ddec54754dab11523c0c6d90d
+      internalID: -2139109173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 425
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1113d5de741533244b44917c58de7924
+      internalID: -1080540373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_37
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 404
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9284ac87527cd85409d7df7964183691
+      internalID: -1262027610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 385
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98827f091b0b9449bd05af474b38982
+      internalID: 696001602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_41
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 402
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaf539b1389f894f84d4641d7c9526e
+      internalID: 1031465914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_45
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 383
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c705de54be5a364484b895d8efd88d6
+      internalID: -643678947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_46
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 312
+        width: 23
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f97e6bad6712884d8be8a1528f99a2d
+      internalID: -290758758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_47
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 310
+        width: 23
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c8db050001ec24091a85578361fd8c
+      internalID: 69425946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_48
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 403
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421fc6d08a346974296c22f54abef6b5
+      internalID: -1308218654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_49
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 403
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d5e262ddb03f446ae88bbe0e24f23c
+      internalID: -2010052214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_55
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 374
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad52959aa620ca498aea888b239152a
+      internalID: 877456384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_56
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 374
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdcfcaf775a7b34c802995a4e4d2ab7
+      internalID: -39201290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_57
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 392
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed3b16729a08bc42b9b91373c2f07f1
+      internalID: 815867140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_58
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 392
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337f46bd84740b24093f6e465e804a04
+      internalID: 1452550530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_60
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 312
+        width: 23
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df1a94a0e5562c4db946265170e2300
+      internalID: -1546678654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_61
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 381
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e34ec20bbae0a74988159726138166c
+      internalID: -531232248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_62
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 381
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42468be01a42f044aba223b1af4bded1
+      internalID: -1797836747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_63
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 309
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282bd96efe7be9b41a1cc3ad5fc8059e
+      internalID: -1254939035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_64
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 355
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0db6d4abee29646b63b0b82d1bf92b
+      internalID: 1451505274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_65
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 355
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027007333fee8494ba220435cc3b1b09
+      internalID: -160329568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_66
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 361
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc53743361280a4f889942cacbe9020
+      internalID: -2051775310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_67
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 342
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d163f350c14e9541a10aa66f5a4e70d
+      internalID: 2129328890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_68
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 342
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e4a3df3583dee4f8cbaffb2acf0020
+      internalID: 1965805131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_69
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 342
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc600ce162638624ea2c443ba311eb00
+      internalID: -90996987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_70
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 348
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba626783ec5d44f4eaa02dbad2ad7c26
+      internalID: -1994192438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_71
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 352
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c88a565b8b2e304f84e7c47ed20faaf
+      internalID: 232599177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_72
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 352
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa373e9df24d1d14eb1e84a2f62e9a1f
+      internalID: 1676509077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_73
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 348
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51294d820c265254fbe7aaf044023419
+      internalID: -1644194818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_74
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 322
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f2e160efd918d4da65030f57b8c650
+      internalID: 212478883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_75
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 337
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da7795519de3f648b6793d7ad465a70
+      internalID: 122266454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_76
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 309
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a379fd8fe6f994da805f3e3e676a73
+      internalID: 1054216057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_77
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 337
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f3cdaeb4ce59441b738e033220c28f
+      internalID: 1001977480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_78
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 336
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee956b9c2359b14dbce5095874870e6
+      internalID: 1371111345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_79
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 337
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb2207f69f07bc43b13373a948210b7
+      internalID: -1932367372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_80
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 309
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373b6e934177a3144b39575f307fe507
+      internalID: 991490484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_81
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 312
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c3d21829f7ff247b1e4c276f112c9c
+      internalID: 553820436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_82
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 331
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212fcace871d4b24c9d058934c34802f
+      internalID: 882429882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_83
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 331
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de79523347acc5d418c5383b53358c07
+      internalID: -1905323571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_84
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 322
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b6b677ac8429f4da2a8de274287ef6
+      internalID: 1464677008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_85
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 322
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c41b56eb962a3345919a5b2e91a57fc
+      internalID: 1939878799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_86
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 315
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daafcf141a3af67479f630da94530faa
+      internalID: -1503534310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_87
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 314
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dca91e7124964541bc3eb8096122695
+      internalID: 346801461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_88
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 320
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f15b71cd5438f446a44b5efca4aa2f2
+      internalID: -1119000117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_89
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 320
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e042aa50e3b994aa8fdfed8de42331
+      internalID: 987513659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_90
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 315
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62177fc193f2f7f4da6ce728e30715ee
+      internalID: 163097136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_91
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 310
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dc58e58777f764e9f9a42adeaf2a1c
+      internalID: -2074181314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_92
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 310
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ebeb82ba0a1e84fb159150513f787f
+      internalID: 871482946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_93
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 315
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b16cc939f7db94e81770717b546baa
+      internalID: 1977824422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_94
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 314
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d9d7faaab4a904abff61b0d74a5a26
+      internalID: -1977485839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_95
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 314
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4688a77f224a841b23c792a6df71c9
+      internalID: -832185055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_96
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 252
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7edd37a4017dd4c8ed2db24ba0ee53
+      internalID: 1733726497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_97
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 286
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837d1fa4d9231e9429d92924ef149b78
+      internalID: -1774848247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_98
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 289
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb79c6b222721f42bc7f78ee0e1edb5
+      internalID: -1371500072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_99
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 287
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02849ec1014841f4da83a0a696456aae
+      internalID: -587687600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_100
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 268
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db72e0fc3cd8a4545b207b1955d4a684
+      internalID: -303265106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_101
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 282
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7f7e1f96dc96749a006392f4f1f2c7
+      internalID: -1236154283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_102
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 290
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dc3e7754d163e4388f223f28cfaa1b
+      internalID: -1609791361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_103
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 279
+        width: 215
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c395f10a9f16e54687b078aee4e8d6d
+      internalID: -2006259609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_104
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 270
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74035b884f7cf94799483b73ba72707
+      internalID: -1182004398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_105
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 270
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf71f08c8324b841b8e59e47071c990
+      internalID: -406765885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_106
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 251
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72012f5ead1dc904db0773aa357811ae
+      internalID: 898921859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_107
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 259
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8e0edeb87356c47988041d085cea08
+      internalID: -535292254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_108
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 249
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f9c3371f9b4d74e88ddf61267a516c
+      internalID: 1173418941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_109
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 249
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e48a347e383a6c4cba947c8c4516491
+      internalID: 973112932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_110
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 250
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5631c7e81eb22e44382039c918cfbbd8
+      internalID: 1437495270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_111
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 250
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684d7358f680fe54e8251216b6eb8f98
+      internalID: -1055652308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_112
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 261
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b806ac5d24e39b4c93b8772b0175250
+      internalID: 704218986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_113
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 258
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88980f83f01693e42824f3a7cbf79870
+      internalID: 422003545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_114
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 258
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29d34572a8a749438ef7cb56bfeda3f
+      internalID: 1311397952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_115
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 203
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6315366f09d8eb41ab44bf16aa756c3
+      internalID: -1472829179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_116
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 206
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556336af726d78c4c92d2cd61cda26ac
+      internalID: -1779614277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_117
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 211
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4503c40153d6c6044845d829450dc5d5
+      internalID: 1520168113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_118
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 216
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0576280aed46614eae7645be1f368c0
+      internalID: 1148089604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_119
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 204
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a6decadf29b0d4b8f86731d4e66d17
+      internalID: 247916183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_120
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47efbb6360a9d094d93d6eb4d01f5723
+      internalID: -1869826762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_121
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 224
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6e21ffd7f83b747806d0145a2e4302
+      internalID: 805660676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_122
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 237
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae9b5d8195cad444b3e9033a10a975f
+      internalID: 801741870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 237
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71798b6ebfa87741ae718c538c19a57
+      internalID: -1292414549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_124
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 237
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d45a630199a3b4caa5b5994c5a1902
+      internalID: 461903910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_125
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 237
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775cc9cbb90901d4abc90ceaba71dff8
+      internalID: -123586871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_126
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 145
+        width: 14
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004680f8ad5417849a8d9c311c72badf
+      internalID: 130566974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_127
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 228
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff357d431c9c90b4996f11fb9b70c613
+      internalID: -2144226482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_128
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 144
+        width: 6
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a52d6343fca204ba8248794c265a91
+      internalID: 1552749291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_129
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 209
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e8b8aa344f98041a640970a5e03043
+      internalID: -21002910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_130
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 228
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8442140409d2a9343870d591e32c76be
+      internalID: -919912927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_131
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 228
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58478b060e59f924a97bfc0d0695fb41
+      internalID: -1294801621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_132
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 219
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68730e13239ad340b812741bf909f9b
+      internalID: 1622552721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_133
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 219
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f75c664b752e5428d15cc447c2b531
+      internalID: -1264556301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_134
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 219
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf4128c65ef7e94ba123bb251203196
+      internalID: -203475798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_135
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 219
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33fd5c7cc216fe40af89ed97eceebff
+      internalID: 744729516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_136
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 219
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385ede0f510a0e146893fefa51dd3713
+      internalID: -637386871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_137
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 195
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9874885a3de613349b46826b48fa3b3e
+      internalID: -405667601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_138
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 209
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4976ad43989ef434fbd1b980d197e559
+      internalID: -293710461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_139
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 209
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b50b5bd7f652e49af192264f347f32
+      internalID: -601301625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_140
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 187
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0c74d3a20664542975d4e261e55b48
+      internalID: -296099403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_141
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 200
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3213f03c2ad1bfb4ba325113dbcea25a
+      internalID: -1199684417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_142
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 200
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66640cadeebfb9a448d092d8d268a4c3
+      internalID: -1199298471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_143
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 200
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f24f881a7a0e846af0256c341a6377
+      internalID: 1767321408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_144
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 200
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4304bce89876641868fa518bf74b1a
+      internalID: 933824387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_145
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 191
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38acef4420c370d47902ef9c20d36fcb
+      internalID: -1484872068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_146
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 191
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e967da2358365e44ab9b1e0389b6eac
+      internalID: 506454037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_147
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 167
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829d100a2de37714bb29c3bc5b8652a8
+      internalID: -920583264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_148
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 167
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b9b1bf50a71824cbe2ff43411e165e
+      internalID: 962185667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_149
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 167
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ceac072af661d47a3713cb65d33e98
+      internalID: 1719811375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_150
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 167
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be909c4f5fc693840a57664a601b06fb
+      internalID: 1398807500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_151
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 167
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d0056c466efbc479acce043f9afbe3
+      internalID: 1345092508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_152
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 167
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db092c9cf2663454682b33193a441b40
+      internalID: -1354356101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_153
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 167
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7570c2a0ad9928141a080f14a7dee659
+      internalID: -331745066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_154
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 167
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb6f1c0f3607df429a38a2064754902
+      internalID: -1071476670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_155
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 167
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5be8dab59e2bfb4ba4b7b1c94cc7bd8
+      internalID: 2119198300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_156
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 182
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9da9d7cac1e2b42bfadd9467b978be
+      internalID: 1887248390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_157
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 182
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0767856490e7e84da31b9abd9b17a59
+      internalID: 1961046487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_158
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 182
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85445fee69b5f894c82ac86a2b198f12
+      internalID: 205387104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_159
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 182
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aa547e5411f1b46b3fd68a48b427a4
+      internalID: -1026519774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_160
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 155
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca99a5d81526cfb49ab29ce945c74473
+      internalID: -722742028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_161
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 173
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb4457bf1db7d34699cddb2618bf13a
+      internalID: 381189368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_162
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 173
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd83ceaec01a6b4eb40f7ed38bcd0b2
+      internalID: -356035501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_163
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 163
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeca394569da0143b6cf54f7ef40d84
+      internalID: -321564868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_164
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 163
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4019197f10e73b349b2a38325db64255
+      internalID: -2032022467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_165
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 163
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30cce438abadb54883c4d9dd518342b
+      internalID: 758105946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_166
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 163
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217c1f3121d53ff448ef0c9fdc1c8cbe
+      internalID: -486717023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_167
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 137
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d8d51c8b1fd124fab8aeb3619b4420
+      internalID: -1223129773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_168
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 137
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60db345aa5175de4b8416b618cc31486
+      internalID: 1703250699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_169
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 137
+        width: 102
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9efebf4319cbe4a8867632287ba4f5
+      internalID: 2025281835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_170
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 137
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e4bf51330d45e41b8fb9aadf38778d
+      internalID: -708785761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_171
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 95
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b35b92cdcd2a3a4fa04b2d45ba1e0a4
+      internalID: -1051703029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_172
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 154
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4778938de58becf45a8e20bebafd5bf5
+      internalID: -1094691648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_173
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 154
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07534cdfb7e5aea49854c2e38efa51c0
+      internalID: -520392602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_174
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 145
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af011aab8168ba46b813da39cbce1e1
+      internalID: 1570299362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_175
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 142
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f836406dacc5a0489d2cd0f6d947deb
+      internalID: -1065284413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_176
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 142
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bf5bb937469284a8366316ea633668
+      internalID: 706504855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_177
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 142
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8237e4bbc664db40a04ddec932e8c48
+      internalID: -356134154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_178
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e10f7f7bceba19439b0ac173e806455
+      internalID: 405787172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_179
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 145
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fc5b96f4b57ac458cfc9e7d0be2790
+      internalID: 872729220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_180
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 145
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895faaa6aca4bab44a7c386c944a89c7
+      internalID: 1711455199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_181
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 145
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77d780c6fa990b49aff173cb386f4c0
+      internalID: -2109440007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_182
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 145
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3293865a1c1374fbd106db199b1d0b
+      internalID: -1259263420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_183
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 103
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49afa902aafd79e44b466d7775287be8
+      internalID: 2106421037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_184
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 110
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d7f2aff0fd56b418877a1b477d4d5e
+      internalID: 378632144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_185
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 114
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6755f81abb2b7fa4895b93d026daa492
+      internalID: 1555377959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_186
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 114
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5aa7f2cb9d9cd439c7e6a31582a26e
+      internalID: -1154891646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_187
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 114
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c693bb73114c0e94da69ffd6dfa2d96b
+      internalID: -198102103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_188
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 114
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7955bdbcf51e26243ad33aa810396172
+      internalID: -612756198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_189
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 122
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9fc706a6e3bd342b02f5ed1e6f7ae5
+      internalID: 2147434463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_190
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 124
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0038154bb5ec75a40a65277d01f84e58
+      internalID: -229981405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_191
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 122
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae04b8b47d8049d4c85e74805ae04b7a
+      internalID: 1993667772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_192
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 103
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dea88bdffec3a41aa4d122d27c362d
+      internalID: 42144174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_193
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 103
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1f688cfc1c22540a33e8ff934a712f
+      internalID: 857898056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_194
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 122
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e943b597ea53a44b6addbf0975bb3c
+      internalID: -1082294272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_195
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 102
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ec9c8fade597d4e99a900200173bb3
+      internalID: -912608753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_196
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 102
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101af804bda3b39439d4ae4f108a0c69
+      internalID: -1470555672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_197
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 94
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c516509c834694abc82c4991ea5a77
+      internalID: 1414174382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_198
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 101
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642185cf329f7544a8f53b7660525983
+      internalID: -794117279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_199
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 106
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f887bbcdcc46f43a604e8a11d24264
+      internalID: -1316246848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_200
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 61
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9cf989390289e459e2339eda35cd35
+      internalID: -179361008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_201
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 63
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b84fe0241dfe3f4b973a80a46ea9c8c
+      internalID: -1702935001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_202
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 67
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff4dccc306ee33428e4a1a28fc9da65
+      internalID: -1525328739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_203
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 60
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cef7345d757e6b4fb4455fe458fbbd4
+      internalID: 97333660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_204
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 68
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f35e6a13662f3498474fc0a72dc341
+      internalID: 1703650130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_205
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 82
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea667c43f1e145459e99e902bd4b3ee
+      internalID: 1578995280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_206
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 45
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e84ad27e0922b4794f5bfd919a43a0
+      internalID: 1015195539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_207
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 70
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d25818b069648a41af0063b2da64648
+      internalID: -907203817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_208
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa0dc6fdd64570478372bdb8ed44e19
+      internalID: 1762042879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_209
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 77
+        width: 74
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2230758f0927ef478701ba685166964
+      internalID: -935546450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_210
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b741457ee55d8419c23c4c63ac5f7a
+      internalID: 120914692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_211
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30be62a69bc06c54796dddcace93aa71
+      internalID: 1448156337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_212
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcac392c11c05d43bb1370b17c35552
+      internalID: 303362652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_213
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 36
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d083b446559dc9645bd0cbf3b11df519
+      internalID: 1590206270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_214
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757b1a408dcddde4da985630bb84be47
+      internalID: -1706814007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_215
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 42
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50371682baa52e449892a1de53fce98
+      internalID: -2096865798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_216
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 39
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8542d126bdca24a800cf2f194ec13f
+      internalID: -896410804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_217
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 27
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d90894207ff43439899fbc2ba874cd
+      internalID: -38163640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_218
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 17
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de1dcd0df3880c41a58d45e0913270c
+      internalID: 345387927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_219
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a82b241aa7cd984087fc07f5cd199d0
+      internalID: -799995051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_220
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 25
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81296cc33be64124b85df98d65068bfa
+      internalID: 503841634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_221
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 11
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791d9d5fdf41d274490dbbb249eb93f1
+      internalID: -441458090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_222
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 11
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3971b8644a670849a4819293c5d15ec
+      internalID: -1491700876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_223
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 51
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0bdd0072b338d43b5265139f318dae
+      internalID: 758719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_224
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 10
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5c8299da35f2e4192953eb65c78b1a
+      internalID: 173629717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_225
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 54
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c1d55ef5500bb4286726bd603784d9
+      internalID: 1684487550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_226
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 41
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2a5a77858eff44185c3321528029b8
+      internalID: 723321950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_227
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 54
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508f08fa457edd74db7d2b9b56afc4f6
+      internalID: -490673959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_228
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 41
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c0b1b4937c13d4b9a9caf5b135e20f
+      internalID: 1346513446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_229
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 54
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106f7096abd0ee34d8a540e23eb960f4
+      internalID: -774000659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_230
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 41
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dc9d3bfd9e0924fbb4a294e4e57035
+      internalID: 447663922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_231
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 54
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7626277e2e4c1e46a3648ba7afa597f
+      internalID: 1500009140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_232
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 41
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eee32934b8cb44482208f0da190f83
+      internalID: -1871278554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_233
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 41
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b849e83f9e3ee47a87d8a9a4983e33
+      internalID: 1013393348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_234
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 22
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8031d6e551af56f45bc905cd63f58c88
+      internalID: -1231878582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_235
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37705f0c013bf7b499103b72050f56e4
+      internalID: -1276237110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_236
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 24
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72146b057db4da4a85bea2d2d55e6e1
+      internalID: 1690981771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_237
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 24
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca2a1ea1f24e0e428bc6a2eacd9c87f
+      internalID: 1625091256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_238
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 11
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cd5797f5fd87e4b908daab6b2766c9
+      internalID: -780111367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_239
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 24
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fd95c9bb5d60042ab55eed76ecb8f8
+      internalID: -803844273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_240
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 11
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7976dcfcaa5054881763ca713c3da5
+      internalID: -1023857841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_241
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 11
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c48f8cea8d7cf4b9bf0eecade6f4a4
+      internalID: 2020154378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_242
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 7
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775709d5486f3b34794d80fd98f6405f
+      internalID: -1350631091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_243
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 7
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754067fbcaaa003448f3491b9bd4b02c
+      internalID: 814534186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_244
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 11
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b95d311bbf1d342b7520a3cba49a02
+      internalID: -1418450957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_245
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a499bfa0e0d2b941ab29f4a5ebfcc5c
+      internalID: -1848025395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_246
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a50dd3c068044469e0e5d9b360b668
+      internalID: -969952872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_247
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11190a2dfd318584bad5c6351f94fb7e
+      internalID: -1367277044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioknobs-all_248
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3086cc328e94eb43ab7df092f26e5fc
+      internalID: 368815936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c95801b3d72117e42aa6c1d0c03c0063
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      audioknobs-all_0: 12287168
+      audioknobs-all_1: 1195328714
+      audioknobs-all_10: 1699376052
+      audioknobs-all_100: -303265106
+      audioknobs-all_101: -1236154283
+      audioknobs-all_102: -1609791361
+      audioknobs-all_103: -2006259609
+      audioknobs-all_104: -1182004398
+      audioknobs-all_105: -406765885
+      audioknobs-all_106: 898921859
+      audioknobs-all_107: -535292254
+      audioknobs-all_108: 1173418941
+      audioknobs-all_109: 973112932
+      audioknobs-all_11: 599027284
+      audioknobs-all_110: 1437495270
+      audioknobs-all_111: -1055652308
+      audioknobs-all_112: 704218986
+      audioknobs-all_113: 422003545
+      audioknobs-all_114: 1311397952
+      audioknobs-all_115: -1472829179
+      audioknobs-all_116: -1779614277
+      audioknobs-all_117: 1520168113
+      audioknobs-all_118: 1148089604
+      audioknobs-all_119: 247916183
+      audioknobs-all_12: -1266343231
+      audioknobs-all_120: -1869826762
+      audioknobs-all_121: 805660676
+      audioknobs-all_122: 801741870
+      audioknobs-all_123: -1292414549
+      audioknobs-all_124: 461903910
+      audioknobs-all_125: -123586871
+      audioknobs-all_126: 130566974
+      audioknobs-all_127: -2144226482
+      audioknobs-all_128: 1552749291
+      audioknobs-all_129: -21002910
+      audioknobs-all_13: 1851448118
+      audioknobs-all_130: -919912927
+      audioknobs-all_131: -1294801621
+      audioknobs-all_132: 1622552721
+      audioknobs-all_133: -1264556301
+      audioknobs-all_134: -203475798
+      audioknobs-all_135: 744729516
+      audioknobs-all_136: -637386871
+      audioknobs-all_137: -405667601
+      audioknobs-all_138: -293710461
+      audioknobs-all_139: -601301625
+      audioknobs-all_14: 523226196
+      audioknobs-all_140: -296099403
+      audioknobs-all_141: -1199684417
+      audioknobs-all_142: -1199298471
+      audioknobs-all_143: 1767321408
+      audioknobs-all_144: 933824387
+      audioknobs-all_145: -1484872068
+      audioknobs-all_146: 506454037
+      audioknobs-all_147: -920583264
+      audioknobs-all_148: 962185667
+      audioknobs-all_149: 1719811375
+      audioknobs-all_15: 545427142
+      audioknobs-all_150: 1398807500
+      audioknobs-all_151: 1345092508
+      audioknobs-all_152: -1354356101
+      audioknobs-all_153: -331745066
+      audioknobs-all_154: -1071476670
+      audioknobs-all_155: 2119198300
+      audioknobs-all_156: 1887248390
+      audioknobs-all_157: 1961046487
+      audioknobs-all_158: 205387104
+      audioknobs-all_159: -1026519774
+      audioknobs-all_16: -1251458287
+      audioknobs-all_160: -722742028
+      audioknobs-all_161: 381189368
+      audioknobs-all_162: -356035501
+      audioknobs-all_163: -321564868
+      audioknobs-all_164: -2032022467
+      audioknobs-all_165: 758105946
+      audioknobs-all_166: -486717023
+      audioknobs-all_167: -1223129773
+      audioknobs-all_168: 1703250699
+      audioknobs-all_169: 2025281835
+      audioknobs-all_17: 2115665304
+      audioknobs-all_170: -708785761
+      audioknobs-all_171: -1051703029
+      audioknobs-all_172: -1094691648
+      audioknobs-all_173: -520392602
+      audioknobs-all_174: 1570299362
+      audioknobs-all_175: -1065284413
+      audioknobs-all_176: 706504855
+      audioknobs-all_177: -356134154
+      audioknobs-all_178: 405787172
+      audioknobs-all_179: 872729220
+      audioknobs-all_18: -581303135
+      audioknobs-all_180: 1711455199
+      audioknobs-all_181: -2109440007
+      audioknobs-all_182: -1259263420
+      audioknobs-all_183: 2106421037
+      audioknobs-all_184: 378632144
+      audioknobs-all_185: 1555377959
+      audioknobs-all_186: -1154891646
+      audioknobs-all_187: -198102103
+      audioknobs-all_188: -612756198
+      audioknobs-all_189: 2147434463
+      audioknobs-all_19: -1702414016
+      audioknobs-all_190: -229981405
+      audioknobs-all_191: 1993667772
+      audioknobs-all_192: 42144174
+      audioknobs-all_193: 857898056
+      audioknobs-all_194: -1082294272
+      audioknobs-all_195: -912608753
+      audioknobs-all_196: -1470555672
+      audioknobs-all_197: 1414174382
+      audioknobs-all_198: -794117279
+      audioknobs-all_199: -1316246848
+      audioknobs-all_2: 39630954
+      audioknobs-all_20: -1995562100
+      audioknobs-all_200: -179361008
+      audioknobs-all_201: -1702935001
+      audioknobs-all_202: -1525328739
+      audioknobs-all_203: 97333660
+      audioknobs-all_204: 1703650130
+      audioknobs-all_205: 1578995280
+      audioknobs-all_206: 1015195539
+      audioknobs-all_207: -907203817
+      audioknobs-all_208: 1762042879
+      audioknobs-all_209: -935546450
+      audioknobs-all_21: -529204137
+      audioknobs-all_210: 120914692
+      audioknobs-all_211: 1448156337
+      audioknobs-all_212: 303362652
+      audioknobs-all_213: 1590206270
+      audioknobs-all_214: -1706814007
+      audioknobs-all_215: -2096865798
+      audioknobs-all_216: -896410804
+      audioknobs-all_217: -38163640
+      audioknobs-all_218: 345387927
+      audioknobs-all_219: -799995051
+      audioknobs-all_22: -1886331595
+      audioknobs-all_220: 503841634
+      audioknobs-all_221: -441458090
+      audioknobs-all_222: -1491700876
+      audioknobs-all_223: 758719
+      audioknobs-all_224: 173629717
+      audioknobs-all_225: 1684487550
+      audioknobs-all_226: 723321950
+      audioknobs-all_227: -490673959
+      audioknobs-all_228: 1346513446
+      audioknobs-all_229: -774000659
+      audioknobs-all_23: 1195910911
+      audioknobs-all_230: 447663922
+      audioknobs-all_231: 1500009140
+      audioknobs-all_232: -1871278554
+      audioknobs-all_233: 1013393348
+      audioknobs-all_234: -1231878582
+      audioknobs-all_235: -1276237110
+      audioknobs-all_236: 1690981771
+      audioknobs-all_237: 1625091256
+      audioknobs-all_238: -780111367
+      audioknobs-all_239: -803844273
+      audioknobs-all_24: 1030997353
+      audioknobs-all_240: -1023857841
+      audioknobs-all_241: 2020154378
+      audioknobs-all_242: -1350631091
+      audioknobs-all_243: 814534186
+      audioknobs-all_244: -1418450957
+      audioknobs-all_245: -1848025395
+      audioknobs-all_246: -969952872
+      audioknobs-all_247: -1367277044
+      audioknobs-all_248: 368815936
+      audioknobs-all_25: -2079162253
+      audioknobs-all_26: 1400896646
+      audioknobs-all_27: -1421248531
+      audioknobs-all_28: 855381672
+      audioknobs-all_29: 1584204670
+      audioknobs-all_3: 745333684
+      audioknobs-all_30: 1026458910
+      audioknobs-all_31: 971273815
+      audioknobs-all_32: -2139109173
+      audioknobs-all_33: -1080540373
+      audioknobs-all_34: -1515416636
+      audioknobs-all_35: 895665079
+      audioknobs-all_36: 1177104146
+      audioknobs-all_37: -1262027610
+      audioknobs-all_38: 696001602
+      audioknobs-all_39: -1387590634
+      audioknobs-all_4: -1951126903
+      audioknobs-all_40: 681394984
+      audioknobs-all_41: 1031465914
+      audioknobs-all_42: 1405672967
+      audioknobs-all_43: 1958738010
+      audioknobs-all_44: -2006163306
+      audioknobs-all_45: -643678947
+      audioknobs-all_46: -290758758
+      audioknobs-all_47: 69425946
+      audioknobs-all_48: -1308218654
+      audioknobs-all_49: -2010052214
+      audioknobs-all_5: 566393850
+      audioknobs-all_50: -307974811
+      audioknobs-all_51: 9949265
+      audioknobs-all_52: -1834964224
+      audioknobs-all_53: -1543804051
+      audioknobs-all_54: -1556209961
+      audioknobs-all_55: 877456384
+      audioknobs-all_56: -39201290
+      audioknobs-all_57: 815867140
+      audioknobs-all_58: 1452550530
+      audioknobs-all_59: -1492234385
+      audioknobs-all_6: 408459134
+      audioknobs-all_60: -1546678654
+      audioknobs-all_61: -531232248
+      audioknobs-all_62: -1797836747
+      audioknobs-all_63: -1254939035
+      audioknobs-all_64: 1451505274
+      audioknobs-all_65: -160329568
+      audioknobs-all_66: -2051775310
+      audioknobs-all_67: 2129328890
+      audioknobs-all_68: 1965805131
+      audioknobs-all_69: -90996987
+      audioknobs-all_7: 1088852876
+      audioknobs-all_70: -1994192438
+      audioknobs-all_71: 232599177
+      audioknobs-all_72: 1676509077
+      audioknobs-all_73: -1644194818
+      audioknobs-all_74: 212478883
+      audioknobs-all_75: 122266454
+      audioknobs-all_76: 1054216057
+      audioknobs-all_77: 1001977480
+      audioknobs-all_78: 1371111345
+      audioknobs-all_79: -1932367372
+      audioknobs-all_8: -409285514
+      audioknobs-all_80: 991490484
+      audioknobs-all_81: 553820436
+      audioknobs-all_82: 882429882
+      audioknobs-all_83: -1905323571
+      audioknobs-all_84: 1464677008
+      audioknobs-all_85: 1939878799
+      audioknobs-all_86: -1503534310
+      audioknobs-all_87: 346801461
+      audioknobs-all_88: -1119000117
+      audioknobs-all_89: 987513659
+      audioknobs-all_9: -261055873
+      audioknobs-all_90: 163097136
+      audioknobs-all_91: -2074181314
+      audioknobs-all_92: 871482946
+      audioknobs-all_93: 1977824422
+      audioknobs-all_94: -1977485839
+      audioknobs-all_95: -832185055
+      audioknobs-all_96: 1733726497
+      audioknobs-all_97: -1774848247
+      audioknobs-all_98: -1371500072
+      audioknobs-all_99: -587687600
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
