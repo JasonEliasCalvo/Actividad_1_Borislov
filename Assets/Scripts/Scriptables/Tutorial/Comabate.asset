@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc52f6f47fd5db4dab4a79eb197be02, type: 3}
+  m_Name: Comabate
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialInfo
+  tutorialID: 2
+  title: Combate
+  instruction: Presiona click izquierdo para golpear.
+  tutorialImage: {fileID: 0}
+  tutorialVideo: {fileID: 32900000, guid: c34a59295f8374c42923fbb6db94be0a, type: 3}

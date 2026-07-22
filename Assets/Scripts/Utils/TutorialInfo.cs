@@ -6,6 +6,7 @@ public class TutorialInfo : ScriptableObject
 {
     public int tutorialID;
     public string title;
+
     [TextArea]
     public string instruction;
     public Sprite tutorialImage;

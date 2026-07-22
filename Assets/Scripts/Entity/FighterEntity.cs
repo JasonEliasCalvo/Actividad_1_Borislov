@@ -83,8 +83,6 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
 
     protected virtual void Update()
     {
-        if (currentState == DeathState) return;
-
         currentState?.UpdateState();
         ApplyGravity();
 
