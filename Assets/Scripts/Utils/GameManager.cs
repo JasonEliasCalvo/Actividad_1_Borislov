@@ -127,6 +127,12 @@ public class GameManager : MonoBehaviour
     {
         yield return StartCoroutine(FadeOutCoroutine(null));
         SceneManager.LoadScene(sceneIndex);
+        Time.timeScale = 1f;
     }
 
+    public void QuickLoadScene(int sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex);
+        Time.timeScale = 1f;
+    }
 }
