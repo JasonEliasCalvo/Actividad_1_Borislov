@@ -24,20 +24,9 @@ public class DashState : BaseState
         // 1: Usamos GetMovementInput()
         Vector3 inputDir = fighter.GetMovementInput();
 
-        if (inputDir == Vector3.zero)
-        {
-            // Backflip (Hacia atrás por defecto)
-            dashDirection = -fighter.transform.forward;
-            fighter.animator?.SetTrigger("Dash");
-        }
-        else
-        {
-            // Side-step o Forward Dash según el ángulo del input vs forward
-            dashDirection = inputDir.normalized;
-            fighter.animator?.SetTrigger("Dash");
-        }
-
-        // Para el DUCK: Podrías disparar un estado diferente si Shift está presionado
+        // Backflip (Hacia atrás por defecto)
+        dashDirection = -fighter.transform.forward;
+        fighter.animator.Play("Backflip", -1, 0f);
 
         // 2: Iniciamos el cooldown en el player
         player.dashTimer = player.dashDuration;
@@ -49,7 +38,7 @@ public class DashState : BaseState
         player.dashTimer -= Time.deltaTime;
         fighter.velocity = dashDirection * player.dashSpeed;
 
-        fighter.verticalVelocity = 0f; 
+        fighter.verticalVelocity = 0f;
 
         if (player.dashTimer <= 0f)
         {

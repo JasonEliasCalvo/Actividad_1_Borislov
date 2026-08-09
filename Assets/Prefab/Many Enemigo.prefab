@@ -107,8 +107,85 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 820633637288630428}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5187339526957175968}
   m_SourcePrefab: {fileID: 100100000, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}
+--- !u!95 &3423218176800345393 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}
+  m_PrefabInstance: {fileID: 9145442374319141024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8226469803734715889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}
+  m_PrefabInstance: {fileID: 9145442374319141024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &820633637288630428
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8226469803734715889}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.8, z: 0}
+--- !u!114 &5187339526957175968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8226469803734715889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab85c7e73a3324247bf3da3127e84eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyManyNormal
+  animator: {fileID: 3423218176800345393}
+  controller: {fileID: 820633637288630428}
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  walkSpeed: 5
+  acceleration: 15
+  deceleration: 20
+  gravity: -9.81
+  rotationSmoothTime: 0.12
+  velocity: {x: 0, y: 0, z: 0}
+  verticalVelocity: 0
+  rightHandBox: {fileID: 0}
+  leftHandBox: {fileID: 0}
+  rightFootBox: {fileID: 0}
+  leftFootBox: {fileID: 0}
+  weaponBox: {fileID: 0}
+  activeCombo: {fileID: 0}
+  comboIndex: 0
+  currentAttack: {fileID: 0}
+  target: {fileID: 0}
+  detectionRange: 8
+  attackRange: 1.8
+  attackCooldown: 2
 --- !u!4 &8746441413520365387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}

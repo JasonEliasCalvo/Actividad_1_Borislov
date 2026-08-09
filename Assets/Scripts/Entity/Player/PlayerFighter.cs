@@ -7,7 +7,16 @@ public class PlayerFighter : FighterEntity
     public Transform cameraTransform;
     public bool canMove;
 
-    // --- VARIABLES DE DASH (Necesarias para DashState) ---
+    // --- Variables de Mascara ---
+    [Header("Gas Mask")]
+    [SerializeField] private GameObject gasMaskObject;
+    [SerializeField] private float gasMaskDuration = 15f;
+
+    public bool hasGasMask { get; private set; }
+    public bool gasMaskActive { get; private set; }
+    private float gasMaskTimer;
+
+    // --- Variables de dash ---
     [Header("Dash Settings")]
     public float dashSpeed = 20f;      
     public float dashDuration = 0.2f;
@@ -17,16 +26,17 @@ public class PlayerFighter : FighterEntity
     [HideInInspector] public float dashTimer;
     [HideInInspector] public float dashCooldownTimer;
 
-    // Estado único
+    // --- Estado único ---
     public DashState DashState;
 
-    // Input 
+    // --- Input ---
     private PlayerControls controls;
     private Vector2 rawInput;
     private bool dashPressed;
     private bool attackPressed;
     private bool interactPressed;
     private float dashCooldownCounter;
+    private bool maskPressed;
 
     private bool attackBuffer;
     private float bufferWindow = 0.2f; // Tiempo antes de terminar el ataque donde aceptamos input
@@ -45,6 +55,7 @@ public class PlayerFighter : FighterEntity
         controls.Gameplay.Attack.performed += ctx => attackPressed = true;
         controls.Gameplay.Dash.performed += ctx => dashPressed = true;
         controls.Gameplay.Interact.performed += ctx => interactPressed = true;
+        controls.Gameplay.Mask.performed += ctx => maskPressed = true;
     }
 
     void OnEnable()
@@ -55,6 +66,10 @@ public class PlayerFighter : FighterEntity
     protected override void Start()
     {
         base.Start();
+
+        if (gasMaskObject != null)
+            gasMaskObject.SetActive(false);
+
         if (GameManager.instance != null)
         {
             GameManager.instance.InitialGameStart += HandleGameStart;
@@ -81,6 +96,7 @@ public class PlayerFighter : FighterEntity
         base.Update();
 
         HandlePlayerActions();
+        HandleGasMask();
 
         if (dashCooldownTimer > 0)
             dashCooldownTimer -= Time.deltaTime;
@@ -144,6 +160,63 @@ public class PlayerFighter : FighterEntity
             // ChangeState(InteractState);
         }
     }
+
+    // =========================================================
+    // MÁSCARA
+    // =========================================================
+
+    private void HandleGasMask()
+    {
+        if (!hasGasMask)
+            return;
+
+        if (maskPressed)
+        {
+            maskPressed = false;
+
+            if (!gasMaskActive)
+            {
+                ActivateGasMask();
+            }
+        }
+
+        if (gasMaskActive)
+        {
+            gasMaskTimer -= Time.deltaTime;
+
+            if (gasMaskTimer <= 0f)
+            {
+                DeactivateGasMask();
+            }
+        }
+    }
+
+
+    public void ObtainGasMask()
+    {
+        hasGasMask = true;
+    }
+
+
+    private void ActivateGasMask()
+    {
+        gasMaskActive = true;
+        gasMaskTimer = gasMaskDuration;
+
+        if (gasMaskObject != null)
+            gasMaskObject.SetActive(true);
+    }
+
+
+    private void DeactivateGasMask()
+    {
+        gasMaskActive = false;
+        gasMaskTimer = 0f;
+
+        if (gasMaskObject != null)
+            gasMaskObject.SetActive(false);
+    }
+
 
     public void StartDashCooldown()
     {
