@@ -5,7 +5,7 @@ using UnityEngine;
 public class DeathState : BaseState
 {
     public DeathState(FighterEntity fighter) : base(fighter) { }
-
+    public bool isDeathAnimationFinished;
     public override bool CanBeInterrupted => false;
 
     public override void EnterState()
@@ -18,9 +18,10 @@ public class DeathState : BaseState
 
     public override void UpdateState()
     {
-        if (fighter.animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f)
+        if (fighter.animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f && isDeathAnimationFinished == false)
         {
             Debug.Log("Death animation finished");
+            isDeathAnimationFinished = true;
             fighter.onDeath?.Invoke();
         }
     }

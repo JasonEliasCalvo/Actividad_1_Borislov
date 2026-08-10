@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea770b140eae00b4ebc1c29ede3b28dd, type: 3}
+  m_Name: DialogueDatabase Valle
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueDatabase
+  dialogues:
+  - {fileID: 11400000, guid: 63b38429f2095e042a4882338324deca, type: 2}
+  - {fileID: 11400000, guid: dceb251cb6de8e14d82dd47d55ff2489, type: 2}
+  - {fileID: 11400000, guid: a559e1f8e43820e49855ffd4a8b409eb, type: 2}
+  - {fileID: 11400000, guid: 4cfc0f420ab219a44a9e9a1f8ab96c47, type: 2}
+  - {fileID: 11400000, guid: 1fc7a80755d74b74aac6c4218c1b3ea0, type: 2}
+  - {fileID: 11400000, guid: 286521b310214e645b1fcfb8ec553c6f, type: 2}
