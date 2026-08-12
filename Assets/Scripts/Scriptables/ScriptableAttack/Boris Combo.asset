@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc087ea9caa6b8842a79c85c6b26616a, type: 3}
-  m_Name: New Combo
+  m_Name: Boris Combo
   m_EditorClassIdentifier: Assembly-CSharp::ComboSequence
   attacks:
   - {fileID: 11400000, guid: 818d0aac409604a44854743f7e24a650, type: 2}

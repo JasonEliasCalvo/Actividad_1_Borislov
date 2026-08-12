@@ -132,6 +132,14 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
         controller.enabled = false;
     }
 
+    public void InstantDeath()
+    {
+        if (currentState == DeathState)
+            return;
+
+        health.ApplyDamage(health.CurrentHealth);
+    }
+
     // --- FÍSICAS COMPARTIDAS ---
     public void MoveEntity(Vector3 direction, float speed)
     {

@@ -2,28 +2,60 @@ using UnityEngine;
 
 public class EnemyManyNormal : FighterEntity
 {
-    [Header("AI")]
-    public Transform target;
-
+    [Header("AI & Targeting")]
+    private Transform target;
     public float detectionRange = 8f;
-    public float attackRange = 1.8f;
-    public float attackCooldown = 2f;
+    public float attackRange = 2f;
+
+    [Header("Poison Setup")]
+    public GameObject poisonZoneArea;
 
     private bool attackRequested;
-    private float cooldownTimer;
+
+    protected override void Start()
+    {
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            target = playerObj.transform;
+        }
+
+        if (poisonZoneArea != null)
+        {
+            poisonZoneArea.SetActive(false);
+        }
+
+        if (activeCombo != null && activeCombo.attacks.Count > 0)
+        {
+            currentAttack = activeCombo.attacks[0];
+        }
+        base.Start();
+    }
 
     protected override void Update()
     {
-        cooldownTimer -= Time.deltaTime;
-
-        if (target != null)
+        if (target != null && currentState != DeathState)
         {
             float distance = Vector3.Distance(transform.position, target.position);
 
-            if (distance <= attackRange && cooldownTimer <= 0f)
+            // 1. Iniciar Ataque
+            if (distance <= attackRange && currentState != AttackState)
             {
                 attackRequested = true;
-                cooldownTimer = attackCooldown;
+                ChangeState(AttackState);
+            }
+
+            // 2. Cancelar Ataque
+            if (currentState == AttackState)
+            {
+                AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+
+                if (distance > attackRange && info.normalizedTime < 0.5f)
+                {
+                    ConsumeAttackInput();
+                    animator.CrossFade("Idle", 0.05f);
+                    ChangeState(IdleState);
+                }
             }
         }
 
@@ -37,10 +69,7 @@ public class EnemyManyNormal : FighterEntity
 
         float distance = Vector3.Distance(transform.position, target.position);
 
-        if (distance > detectionRange)
-            return Vector3.zero;
-
-        if (distance <= attackRange)
+        if (distance > detectionRange || distance <= attackRange)
             return Vector3.zero;
 
         Vector3 dir = target.position - transform.position;
@@ -59,4 +88,27 @@ public class EnemyManyNormal : FighterEntity
         attackRequested = false;
     }
 
+    public void AnimEvent_Explode()
+    {
+        Debug.Log("EnemyManyNormal: AnimEvent_Explode");
+
+        if (poisonZoneArea != null)
+        {
+            poisonZoneArea.transform.SetParent(null);
+            poisonZoneArea.SetActive(true);
+        }
+
+        InstantDeath();
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        // Radio de Detección
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, detectionRange);
+
+        // Radio de Ataque 
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
+    }
 }

@@ -41,13 +41,13 @@ public class IdleState : BaseState
             fighter.ChangeState(fighter.AirborneState);
     }
 
-    public override void FixedUpdateState() 
+    public override void FixedUpdateState()
     {
-       
+
     }
 
     public override void ExitState()
     {
-        
+
     }
 }

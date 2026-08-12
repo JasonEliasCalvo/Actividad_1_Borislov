@@ -32,7 +32,7 @@ public class AttackState : BaseState
             }
         }
 
-        if (info.normalizedTime >= 0.90f)
+        if (info.normalizedTime >= 0.9f)
         {
             fighter.ChangeState(fighter.IdleState);
         }

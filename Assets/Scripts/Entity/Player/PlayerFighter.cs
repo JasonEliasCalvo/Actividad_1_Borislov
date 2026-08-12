@@ -10,11 +10,11 @@ public class PlayerFighter : FighterEntity
     // --- Variables de Mascara ---
     [Header("Gas Mask")]
     [SerializeField] private GameObject gasMaskObject;
-    [SerializeField] private float gasMaskDuration = 15f;
+    public float gasMaskDuration = 15f;
 
     public bool hasGasMask { get; private set; }
     public bool gasMaskActive { get; private set; }
-    private float gasMaskTimer;
+    public float gasMaskTimer;
 
     // --- Variables de dash ---
     [Header("Dash Settings")]
