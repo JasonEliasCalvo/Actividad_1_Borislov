@@ -14,6 +14,7 @@ public class AttackBase : ScriptableObject
     public float damage = 10f;
     public float hitStun = 0.5f;
     public float knockbackForce = 5f;
+    public float hitstopDuration = 0.1f;
 
     [Header("VFX & SFX")]
     public GameObject hitParticle;

@@ -16,4 +16,4 @@ MonoBehaviour:
   - text: "Se acab\xF3 el juego, Manny Toxin. Tu 'padre' Pete no est\xE1 aqu\xED
       para salvarte... Hora de romper esa coraza."
     portrait: {fileID: 21300000, guid: d072a5b7401177c48bb0192ed284f942, type: 3}
-  dialogueID: 5
+  dialogueID: 6

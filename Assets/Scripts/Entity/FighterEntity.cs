@@ -2,9 +2,10 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Requerimos estos componentes obligatoriamente
 [RequireComponent(typeof(CharacterController))]
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(HealthComponent))]
+[RequireComponent(typeof(AudioSource))]
 public abstract class FighterEntity : MonoBehaviour, IDamageable
 {
     [Header("Core Components")]
@@ -26,7 +27,7 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
     protected float rotationVelocity;
 
     // Estado Actual
-    protected BaseState currentState;
+    public BaseState currentState;
 
     // --- ESTADOS (Instancias) ---
     public IdleState IdleState;
@@ -46,7 +47,13 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
 
     [Header("Combo Settings")]
     public ComboSequence activeCombo;
+    public AttackBase currentAttack;
+
     [HideInInspector] public int comboIndex = 0;
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip hurtSound;
 
     public virtual void ConsumeAttackInput() { }
 
@@ -54,14 +61,12 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
     public bool IsVulnerable { get; private set; }
     public bool IsInvulnerable { get; set; }
 
-    // El ataque que se está ejecutando
-    public AttackBase currentAttack;
-
     protected virtual void Awake()
     {
         controller = GetComponent<CharacterController>();
         health = GetComponent<HealthComponent>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         // Inicializamos estados pasando "this" (la entidad)
         IdleState = new IdleState(this);
@@ -101,18 +106,22 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
         if (IsInvulnerable || currentState == DeathState) return;
 
         health.ApplyDamage(amount);
+
+        if (hurtSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(hurtSound);
+        }
+
         Debug.Log($"{gameObject.name} recibió {amount} de daño. Vida: {health.CurrentHealth}");
 
         if (health.CurrentHealth > 0)
         {
             if (currentState == HitState)
             {
-                // Si ya estamos golpeados, llamamos al método especial de refresco
                 HitState.RefreshHit(hitStun);
             }
             else
             {
-                // Si es el primer golpe, entramos al estado normalmente
                 HitState.stunDuration = hitStun;
                 ChangeState(HitState);
             }
@@ -179,8 +188,22 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
 
     private void ApplyGravity()
     {
-        if (controller.isGrounded && verticalVelocity < 0) verticalVelocity = -2f;
-        else verticalVelocity += gravity * Time.deltaTime;
+        if (controller == null) return;
+
+        if (currentState is AttackState)
+        {
+            verticalVelocity = 0f;
+            return;
+        }
+
+        if (controller.isGrounded && verticalVelocity < 0f)
+        {
+            verticalVelocity = -2f;
+        }
+        else
+        {
+            verticalVelocity += gravity * Time.deltaTime;
+        }
     }
 
     // --- GESTIÓN DE ESTADOS ---
@@ -207,20 +230,50 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
     // --- HITBOX MANAGEMENT ---
     public void AnimEvent_OpenHitbox(int limbIndex)
     {
-        if (currentAttack == null) return;
+        if (currentAttack == null)
+            return;
 
-        // Extraemos datos de tu ScriptableObject
         float dmg = currentAttack.damage;
         float stun = currentAttack.hitStun;
         float knock = currentAttack.knockbackForce;
 
+        CombatHitbox targetBox = null;
+
         switch (limbIndex)
         {
-            case 0: rightHandBox?.EnableHitbox(dmg, stun, knock); break;
-            case 1: leftHandBox?.EnableHitbox(dmg, stun, knock); break;
-            case 2: rightFootBox?.EnableHitbox(dmg, stun, knock); break;
-            case 3: leftFootBox?.EnableHitbox(dmg, stun, knock); break;
+            case 0:
+                targetBox = rightHandBox; break;
+            case 1:
+                targetBox = leftHandBox; break;
+            case 2:
+                targetBox = rightFootBox; break;
+            case 3:
+                targetBox = leftFootBox; break;
+            case 4:
+                targetBox = weaponBox; break;
+            default:
+                Debug.LogError(
+                    $"{gameObject.name}: limbIndex inválido: {limbIndex}"
+                );
+                return;
         }
+
+        if (targetBox == null)
+        {
+            Debug.LogError(
+                $"{gameObject.name}: No existe CombatHitbox para limbIndex {limbIndex}."
+            );
+
+            return;
+        }
+
+        Debug.Log(
+            $"<color=cyan>OPEN HITBOX:</color> {gameObject.name} | " +
+            $"Ataque: {currentAttack.attackName} | " +
+            $"Hitbox: {targetBox.gameObject.name}"
+        );
+
+        targetBox?.EnableHitbox(dmg, stun, knock, currentAttack);
     }
 
     public void AnimEvent_CloseHitbox(int limbIndex)
@@ -231,6 +284,7 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
             case 1: leftHandBox?.DisableHitbox(); break;
             case 2: rightFootBox?.DisableHitbox(); break;
             case 3: leftFootBox?.DisableHitbox(); break;
+            case 4: weaponBox?.DisableHitbox(); break;
         }
     }
 

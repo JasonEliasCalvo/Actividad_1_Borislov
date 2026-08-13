@@ -36,9 +36,13 @@ public class IdleState : BaseState
             return;
         }
 
-        // 3. Verificar si estamos en el aire
-        if (!fighter.controller.isGrounded && fighter.verticalVelocity <= 0)
-            fighter.ChangeState(fighter.AirborneState);
+        if (!fighter.controller.isGrounded && fighter.currentState != fighter.AttackState && fighter.currentState != fighter.HitState && fighter.currentState != fighter.DeathState)
+        {
+            if (fighter.currentState != fighter.AirborneState)
+            {
+                fighter.ChangeState(fighter.AirborneState);
+            }
+        }
     }
 
     public override void FixedUpdateState()

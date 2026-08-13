@@ -17,5 +17,6 @@ MonoBehaviour:
   damage: 10
   hitStun: 0.5
   knockbackForce: 5
-  hitParticle: {fileID: 0}
-  hitSound: {fileID: 0}
+  hitstopDuration: 0.1
+  hitParticle: {fileID: 5880797563127281583, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
+  hitSound: {fileID: 8300000, guid: 1e8b16102a76f934d97e706dd95c215a, type: 3}

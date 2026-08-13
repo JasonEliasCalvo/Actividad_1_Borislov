@@ -16,4 +16,4 @@ MonoBehaviour:
   - text: "Ese recinto al fondo... No hay duda, ah\xED es donde tienen al esp\xE9cimen
       principal."
     portrait: {fileID: 21300000, guid: d072a5b7401177c48bb0192ed284f942, type: 3}
-  dialogueID: 4
+  dialogueID: 5

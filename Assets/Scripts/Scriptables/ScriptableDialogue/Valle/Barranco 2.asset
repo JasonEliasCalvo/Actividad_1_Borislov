@@ -10,20 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fc989f0f5de3043b8ea24d0f9ab57c, type: 3}
-  m_Name: Neblina
+  m_Name: Barranco 2
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   dialogueLines:
-  - text: "La concentraci\xF3n de esporas aqu\xED es brutal. Menos mal que encontr\xE9
-      la m\xE1scara en la cueva, porque si no me estar\xEDa asfixiando."
-    portrait: {fileID: 21300000, guid: d072a5b7401177c48bb0192ed284f942, type: 3}
   - text: "El esp\xE9cimen Manny Toxin tom\xF3 el control del exoesqueleto de carga
       del sector norte. El chasis mec\xE1nico tiene un sistema de blindaje industrial
       activo: absorbe impactos continuos hasta disipar energ\xEDa. \xA1Ning\xFAn
       ataque afectar\xE1 al piloto hasta romper la defensa del mecha!"
     portrait: {fileID: 21300000, guid: 4c3445e065b80104f8a32b0376a9a0c1, type: 3}
   - text: "\xBFUn cacahuate en un mecha industrial con sombrero? Tiene estilo, no
-      lo voy a negar... Pero ese chasis funciona igual que las puertas hidr\xE1ulicas
-      del laboratorio: tendr\xE9 que medir mis combos para sobrecargar el blindaje
-      sin dejar que me aplaste con esos brazos."
+      lo voy a negar... Pero eso no podra conmigo."
     portrait: {fileID: 21300000, guid: d072a5b7401177c48bb0192ed284f942, type: 3}
   dialogueID: 3

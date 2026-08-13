@@ -30,9 +30,12 @@ public class WalkState : BaseState
             fighter.ChangeState(fighter.IdleState);
 
         // 4. Chequear Caída
-        if (!fighter.controller.isGrounded && fighter.verticalVelocity < -2f)
+        if (!fighter.controller.isGrounded && fighter.currentState != fighter.AttackState && fighter.currentState != fighter.HitState && fighter.currentState != fighter.DeathState)
         {
-            fighter.ChangeState(fighter.AirborneState);
+            if (fighter.currentState != fighter.AirborneState)
+            {
+                fighter.ChangeState(fighter.AirborneState);
+            }
         }
 
         if (fighter.GetAttackInput())
