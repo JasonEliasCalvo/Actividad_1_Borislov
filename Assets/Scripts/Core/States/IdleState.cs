@@ -12,7 +12,6 @@ public class IdleState : BaseState
 
     public override void UpdateState()
     {
-        // 1. Verificar si queremos movernos
         Vector3 moveDir = fighter.GetMovementInput();
 
         if (moveDir.sqrMagnitude > 0.01f)
@@ -21,13 +20,11 @@ public class IdleState : BaseState
             return;
         }
 
-        // 2. Verificar si queremos atacar
+        // Verificar si queremos atacar
         if (fighter.GetAttackInput())
         {
-            // IMPORTANTE: Configurar el inicio del combo aquí
-            fighter.ResetCombo(); // Ponemos index a 0
+            fighter.ResetCombo();
 
-            // Asignamos el primer ataque
             if (fighter.activeCombo != null && fighter.activeCombo.attacks.Count > 0)
             {
                 fighter.currentAttack = fighter.activeCombo.attacks[0];

@@ -19,7 +19,6 @@ public class UIManager : MonoBehaviour
     // -------------------------
     // Ciclo de vida
     // -------------------------
-
     private void Awake()
     {
         if (instance == null)

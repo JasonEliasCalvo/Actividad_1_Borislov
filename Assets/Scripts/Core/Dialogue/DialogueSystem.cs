@@ -10,11 +10,7 @@ public enum DialogueState
     None,
     DialogueTyping,
     DialogueLineFinished,
-    ChoicePresenting,
-    ChoiceFeedbackTyping,
-    ChoiceFeedbackFinished,
     DialogueEnding,
-    ChoiceEnding
 }
 
 public class DialogueSystem : MonoBehaviour
@@ -161,7 +157,6 @@ public class DialogueSystem : MonoBehaviour
         {
             case DialogueState.DialogueTyping:
             case DialogueState.DialogueLineFinished:
-            case DialogueState.ChoiceFeedbackTyping:
                 EndDialogue();
                 break;
         }

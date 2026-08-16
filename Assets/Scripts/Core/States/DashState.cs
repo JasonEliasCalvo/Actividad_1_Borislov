@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class DashState : BaseState
 {
-    // Creamos una referencia específica para el Jugador
     private PlayerFighter player;
     private Vector3 dashDirection;
 
@@ -21,14 +20,11 @@ public class DashState : BaseState
             return;
         }
 
-        // 1: Usamos GetMovementInput()
-        Vector3 inputDir = fighter.GetMovementInput();
-
         // Backflip (Hacia atrás por defecto)
         dashDirection = -fighter.transform.forward;
         fighter.animator.Play("Backflip", -1, 0f);
 
-        // 2: Iniciamos el cooldown en el player
+        // Iniciamos el cooldown en el player
         player.dashTimer = player.dashDuration;
         player.StartDashCooldown();
     }
