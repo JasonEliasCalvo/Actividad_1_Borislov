@@ -10088,6 +10088,38 @@ PrefabInstance:
       propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3522753818858293279, guid: 26ddf39f9ae685b48a8605e40923c0f3, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522753818858293279, guid: 26ddf39f9ae685b48a8605e40923c0f3, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522753818858293279, guid: 26ddf39f9ae685b48a8605e40923c0f3, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1971300111380205932}
+    - target: {fileID: 3522753818858293279, guid: 26ddf39f9ae685b48a8605e40923c0f3, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522753818858293279, guid: 26ddf39f9ae685b48a8605e40923c0f3, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StartDialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522753818858293279, guid: 26ddf39f9ae685b48a8605e40923c0f3, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: DialogueSystem, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522753818858293279, guid: 26ddf39f9ae685b48a8605e40923c0f3, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522753818858293279, guid: 26ddf39f9ae685b48a8605e40923c0f3, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6183877473059298197, guid: 26ddf39f9ae685b48a8605e40923c0f3, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -10908,6 +10940,22 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - id: 4
+    onDialogueFinished:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 23274406}
+          m_TargetAssemblyTypeName: PlayerFighter, Assembly-CSharp
+          m_MethodName: SetCombo
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: c48ab354644e3b4449a68b0fb07df7c7, type: 2}
+            m_ObjectArgumentAssemblyTypeName: ComboSequence, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 

@@ -48,6 +48,7 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
     [Header("Combo Settings")]
     public ComboSequence activeCombo;
     public AttackBase currentAttack;
+    public ComboSequence defaultCombo;
 
     [HideInInspector] public int comboIndex = 0;
 
@@ -56,7 +57,6 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
     public AudioClip hurtSound;
 
     public virtual void ConsumeAttackInput() { }
-
     public bool IsStunned { get; private set; }
     public bool IsVulnerable { get; private set; }
     public bool IsInvulnerable { get; set; }
@@ -77,12 +77,14 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
         HitState = new HitState(this);
         DeathState = new DeathState(this);
 
-        // SUSCRIPCIONES IMPORTANTES
         health.OnDeath += HandleDeath;
     }
 
     protected virtual void Start()
     {
+        if (activeCombo == null)
+            activeCombo = defaultCombo;
+
         ChangeState(IdleState);
     }
 
@@ -225,6 +227,21 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
     public void ResetCombo()
     {
         comboIndex = 0;
+    }
+
+    public virtual void SetCombo(ComboSequence newCombo)
+    {
+        if (newCombo == null)
+        {
+            Debug.LogWarning($"{gameObject.name}: Combo nulo.");
+            return;
+        }
+
+        activeCombo = newCombo;
+        comboIndex = 0;
+        currentAttack = null;
+
+        Debug.Log($"{gameObject.name} cambió a combo: {newCombo.name}");
     }
 
     // --- HITBOX MANAGEMENT ---
