@@ -16060,6 +16060,14 @@ PrefabInstance:
       value: Cofre
       objectReference: {fileID: 0}
     - target: {fileID: 7780563028471937246, guid: dc295e59fd77ac841948d7dc7db68d6e, type: 3}
+      propertyPath: hurtSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e87bda46787bad94bad9a0e2046c9df6, type: 3}
+    - target: {fileID: 7780563028471937246, guid: dc295e59fd77ac841948d7dc7db68d6e, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 6339626212034154534}
+    - target: {fileID: 7780563028471937246, guid: dc295e59fd77ac841948d7dc7db68d6e, type: 3}
       propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1971300111380205932}
@@ -16076,6 +16084,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc295e59fd77ac841948d7dc7db68d6e, type: 3}
+--- !u!82 &6339626212034154534 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8969398924305348996, guid: dc295e59fd77ac841948d7dc7db68d6e, type: 3}
+  m_PrefabInstance: {fileID: 6339626212034154533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6349288274130335568
 PrefabInstance:
   m_ObjectHideFlags: 0
