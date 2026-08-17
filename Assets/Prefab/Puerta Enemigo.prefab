@@ -6158,8 +6158,8 @@ MonoBehaviour:
   currentAttack: {fileID: 0}
   defaultCombo: {fileID: 0}
   comboIndex: 0
-  audioSource: {fileID: 0}
-  hurtSound: {fileID: 0}
+  audioSource: {fileID: 1529442591950080205}
+  hurtSound: {fileID: 8300000, guid: e87bda46787bad94bad9a0e2046c9df6, type: 3}
 --- !u!114 &5269284024054919557
 MonoBehaviour:
   m_ObjectHideFlags: 0

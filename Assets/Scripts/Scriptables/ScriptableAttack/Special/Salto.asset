@@ -20,3 +20,5 @@ MonoBehaviour:
   hitstopDuration: 0.1
   hitParticle: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
   hitSound: {fileID: 0}
+  swingSound: {fileID: 8300000, guid: 086187a600cf3c144b1ec9a69bb14769, type: 3}
+  swingParticlePrefab: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}

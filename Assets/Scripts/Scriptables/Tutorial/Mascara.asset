@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc52f6f47fd5db4dab4a79eb197be02, type: 3}
+  m_Name: Mascara
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialInfo
+  tutorialID: 3
+  title: "M\xC1SCARA"
+  instruction: "Presiona [ Q ] para equipar.\nEl filtro tiene una duraci\xF3n limitada.
+    \xDAsala con sabidur\xEDa para cruzar \xE1reas de veneno."
+  tutorialImage: {fileID: 0}
+  tutorialVideo: {fileID: 32900000, guid: a419f586d15a95e42b635db63707bc10, type: 3}

@@ -1358,8 +1358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Footstep
   footstepSource: {fileID: 7011316625418019604}
   footstepClips:
-  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
-  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+  - {fileID: 8300000, guid: e32fda76b73285b48a64686e672b31aa, type: 3}
 --- !u!114 &6613782025340871258
 MonoBehaviour:
   m_ObjectHideFlags: 0

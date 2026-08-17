@@ -18,7 +18,7 @@ public class DeathState : BaseState
 
     public override void UpdateState()
     {
-        if (fighter.animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f && isDeathAnimationFinished == false)
+        if (fighter.animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f && isDeathAnimationFinished == false)
         {
             Debug.Log("Death animation finished");
             isDeathAnimationFinished = true;

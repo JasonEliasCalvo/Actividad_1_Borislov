@@ -1030,6 +1030,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4411893763278624257}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4520278857863127266}
   m_SourcePrefab: {fileID: 100100000, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}
 --- !u!4 &14521681008891305 stripped
 Transform:
@@ -1204,9 +1207,10 @@ MonoBehaviour:
   weaponBox: {fileID: 0}
   activeCombo: {fileID: 11400000, guid: 07db01da9f6ccbf4f9dbb37c67124b86, type: 2}
   currentAttack: {fileID: 0}
+  defaultCombo: {fileID: 0}
   comboIndex: 0
-  audioSource: {fileID: 0}
-  hurtSound: {fileID: 0}
+  audioSource: {fileID: 4411893763278624257}
+  hurtSound: {fileID: 8300000, guid: e87bda46787bad94bad9a0e2046c9df6, type: 3}
   detectionRange: 3.5
   attackRange: 1.5
   poisonZoneArea: {fileID: 2713898472044575646}
@@ -1336,6 +1340,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4520278857863127266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8226469803734715889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9059d354f3512464fb1874e35fae3e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Footstep
+  footstepSource: {fileID: 4411893763278624257}
+  footstepClips:
+  - {fileID: 8300000, guid: e32fda76b73285b48a64686e672b31aa, type: 3}
 --- !u!4 &8746441413520365387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 04a41c8bf40a30242a7b8db69af86e76, type: 3}

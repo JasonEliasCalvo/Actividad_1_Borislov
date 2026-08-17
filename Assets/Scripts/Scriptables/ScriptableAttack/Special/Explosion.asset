@@ -17,5 +17,8 @@ MonoBehaviour:
   damage: 0
   hitStun: 0
   knockbackForce: 0
-  hitParticle: {fileID: 0}
+  hitstopDuration: 0.1
+  hitParticle: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
   hitSound: {fileID: 0}
+  swingSound: {fileID: 8300000, guid: eaee8461ca59b8443aeec9cbf23ca840, type: 3}
+  swingParticlePrefab: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}

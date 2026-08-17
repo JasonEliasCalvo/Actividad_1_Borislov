@@ -110008,6 +110008,20 @@ AnimationClip:
     floatParameter: 0
     intParameter: 3
     messageOptions: 0
+  - time: 1.9666667
+    functionName: AnimEvent_PlaySwingSound
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2
+    functionName: AnimEvent_SpawnAttackParticle
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 3
+    messageOptions: 0
   - time: 2.5
     functionName: AnimEvent_CloseHitbox
     data: 

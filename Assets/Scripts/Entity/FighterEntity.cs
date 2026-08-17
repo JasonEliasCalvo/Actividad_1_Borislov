@@ -149,6 +149,7 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
             return;
 
         health.ApplyDamage(health.CurrentHealth);
+        ChangeState(DeathState);
     }
 
     // --- FÍSICAS COMPARTIDAS ---
@@ -302,6 +303,41 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
             case 2: rightFootBox?.DisableHitbox(); break;
             case 3: leftFootBox?.DisableHitbox(); break;
             case 4: weaponBox?.DisableHitbox(); break;
+        }
+    }
+
+    public void AnimEvent_PlaySwingSound()
+    {
+        if (currentAttack != null && currentAttack.swingSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(currentAttack.swingSound);
+        }
+    }
+
+    public void AnimEvent_SpawnAttackParticle(int limbIndex)
+    {
+        if (currentAttack == null || currentAttack.swingParticlePrefab == null) return;
+
+        Transform targetTransform = transform;
+
+        switch (limbIndex)
+        {
+            case 0: if (rightHandBox != null) targetTransform = rightHandBox.transform; break;
+            case 1: if (leftHandBox != null) targetTransform = leftHandBox.transform; break;
+            case 2: if (rightFootBox != null) targetTransform = rightFootBox.transform; break;
+            case 3: if (leftFootBox != null) targetTransform = leftFootBox.transform; break;
+            case 4: if (weaponBox != null) targetTransform = weaponBox.transform; break;
+        }
+
+        GameObject vfx = Instantiate(currentAttack.swingParticlePrefab, targetTransform.position, targetTransform.rotation);
+        Destroy(vfx, 2f);
+    }
+
+    public void AnimEvent_PlayAudioDirect(AudioClip clip)
+    {
+        if (clip != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(clip);
         }
     }
 

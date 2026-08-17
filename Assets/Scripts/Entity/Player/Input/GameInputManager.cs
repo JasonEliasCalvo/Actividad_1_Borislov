@@ -27,7 +27,6 @@ public class GameInputManager : MonoBehaviour
         controls.UI.ShowCursor.canceled += ctx => ShowCursor(false);
         controls.UI.AdvanceDialogue.performed += OnAdvanceDialogueInput;
         controls.UI.SkipDialogue.performed += OnSkipDialogueInput;
-        controls.UI.OnScrollDialogueChoices.performed += OnScrollDialogueChoicesInput;
 
         controls.Gameplay.Enable();
         controls.Gameplay.Interact.performed += OnInteractInput;
@@ -41,22 +40,11 @@ public class GameInputManager : MonoBehaviour
         controls.UI.Pause.performed -= OnPauseInput;
         controls.UI.AdvanceDialogue.performed -= OnAdvanceDialogueInput;
         controls.UI.SkipDialogue.performed -= OnSkipDialogueInput;
-        controls.UI.OnScrollDialogueChoices.performed -= OnScrollDialogueChoicesInput;
         controls.UI.Disable();
 
         controls.Gameplay.Interact.performed -= OnInteractInput;
         controls.Gameplay.Disable();
     }
-
-    private void OnScrollDialogueChoicesInput(InputAction.CallbackContext ctx)
-    {
-        if (DialogueSystem.instance != null && DialogueSystem.instance.GetCurrentDialogueState() == DialogueState.ChoicePresenting)
-        {
-            float scroll = ctx.ReadValue<Vector2>().y;
-            OnScrollDialogueChoices?.Invoke(scroll);
-        }
-    }
-
     private void OnAdvanceDialogueInput(InputAction.CallbackContext ctx)
     {
         if (UIManager.instance.pausePanel.activeSelf) return;
@@ -68,7 +56,6 @@ public class GameInputManager : MonoBehaviour
         if (UIManager.instance.pausePanel.activeSelf) return;
 
         if (DialogueSystem.instance.GetCurrentDialogueState() == DialogueState.DialogueTyping ||
-             DialogueSystem.instance.GetCurrentDialogueState() == DialogueState.ChoiceFeedbackTyping ||
              DialogueSystem.instance.GetCurrentDialogueState() == DialogueState.DialogueLineFinished)
         {
             OnSkipDialoguePressed?.Invoke();

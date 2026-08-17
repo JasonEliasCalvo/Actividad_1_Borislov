@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Arma
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   dialogueLines:
-  - text: arma
-    portrait: {fileID: 21300000, guid: 4c3445e065b80104f8a32b0376a9a0c1, type: 3}
-  - text: 
+  - text: Un buen bate... Nada como la vieja escuela para romper blindajes, despejar
+      el camino y ajustar cuentas
     portrait: {fileID: 21300000, guid: d072a5b7401177c48bb0192ed284f942, type: 3}
   dialogueID: 4

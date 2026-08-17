@@ -35,7 +35,7 @@ public class StandartButton : MonoBehaviour, IPointerEnterHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (DialogueSystem.instance != null && DialogueSystem.instance.GetCurrentDialogueState() == DialogueState.ChoicePresenting)
+        if (DialogueSystem.instance != null)
         {
             OnChoiceButtonHoverEnter?.Invoke(buttonIndex);
         }

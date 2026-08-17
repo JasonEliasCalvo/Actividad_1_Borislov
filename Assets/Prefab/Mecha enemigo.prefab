@@ -414,7 +414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8226469803734715889, guid: 1d76fb9d9731faa45afc66d687c277a2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 911167441111769661, guid: 1d76fb9d9731faa45afc66d687c277a2, type: 3}
@@ -483,6 +483,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: DialogueSystem, Assembly-CSharp
+        m_MethodName: StartDialogue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   walkSpeed: 5
   acceleration: 15
   deceleration: 20
@@ -497,6 +509,7 @@ MonoBehaviour:
   weaponBox: {fileID: 0}
   activeCombo: {fileID: 0}
   currentAttack: {fileID: 0}
+  defaultCombo: {fileID: 0}
   comboIndex: 0
   audioSource: {fileID: 0}
   hurtSound: {fileID: 0}
@@ -1827,6 +1840,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: DialogueSystem, Assembly-CSharp
+        m_MethodName: StartDialogue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   walkSpeed: 3
   acceleration: 15
   deceleration: 20
@@ -1841,9 +1866,10 @@ MonoBehaviour:
   weaponBox: {fileID: 0}
   activeCombo: {fileID: 11400000, guid: 6160f0e9264335b43bd30291d52997c2, type: 2}
   currentAttack: {fileID: 0}
+  defaultCombo: {fileID: 0}
   comboIndex: 0
-  audioSource: {fileID: 0}
-  hurtSound: {fileID: 0}
+  audioSource: {fileID: 114199906428302317}
+  hurtSound: {fileID: 8300000, guid: e87bda46787bad94bad9a0e2046c9df6, type: 3}
   detectionRange: 8
   attackRange: 3.3
   attackCooldown: 3
@@ -1892,8 +1918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Footstep
   footstepSource: {fileID: 114199906428302317}
   footstepClips:
-  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
-  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+  - {fileID: 8300000, guid: e32fda76b73285b48a64686e672b31aa, type: 3}
 --- !u!4 &5086257788224716607 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 608321761475470972, guid: 30ee0c7196396dc4daa51f0542a30ead, type: 3}
