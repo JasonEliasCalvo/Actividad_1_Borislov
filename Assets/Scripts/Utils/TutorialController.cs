@@ -36,6 +36,7 @@ public class TutorialController : MonoBehaviour
 
         GameManager.instance.MovingCamera(false);
         GameManager.instance.InitialGameEnd();
+        UIManager.instance.ShowCursor(true);
 
         titleText.text = info.title;
         instructionText.text = info.instruction;

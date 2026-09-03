@@ -94,6 +94,8 @@ public abstract class FighterEntity : MonoBehaviour, IDamageable
         ApplyGravity();
 
         Vector3 finalMove = velocity + Vector3.up * verticalVelocity;
+
+        if(controller.enabled)
         controller.Move(finalMove * Time.deltaTime);
     }
 

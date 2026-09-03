@@ -172,7 +172,8 @@ public class HackingMiniGame : MonoBehaviour
             .SetEase(Ease.InBack)
             .OnComplete(() =>
             {
-                panel.gameObject.SetActive(false);
+                if (panel != null)
+                    panel.gameObject.SetActive(false);
 
                 foreach (Transform child in centerPoint)
                 {
@@ -185,6 +186,9 @@ public class HackingMiniGame : MonoBehaviour
                 GameManager.instance.InitialGameStart();
 
                 onHackCompleted?.Invoke();
+
+                if (Active == this)
+                    Active = null;
             });
     }
 }

@@ -23,8 +23,7 @@ public class PointerTrigger : MonoBehaviour
 
         TriangleHacking triangle = other.GetComponent<TriangleHacking>();
 
-        if (triangle != null &&
-            HackingMiniGame.Active.CurrentTarget == triangle)
+        if (triangle != null && HackingMiniGame.Active != null && HackingMiniGame.Active.CurrentTarget == triangle)
         {
             HackingMiniGame.Active.ClearCurrentTarget();
         }

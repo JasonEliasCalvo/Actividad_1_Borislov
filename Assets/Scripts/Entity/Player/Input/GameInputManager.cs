@@ -9,9 +9,6 @@ public class GameInputManager : MonoBehaviour
     public static event Action OnInteractStarted;
     public static event Action OnInteractCanceled;
 
-    public static event Action<int> OnSlotKeyPressed;
-
-    public static event Action<float> OnScrollDialogueChoices;
     public static event Action OnSkipDialoguePressed;
 
     private void Awake()

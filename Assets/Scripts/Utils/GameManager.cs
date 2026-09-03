@@ -68,15 +68,15 @@ public class GameManager : MonoBehaviour
         CanMoveCamera = value;
     }
 
-    // -------------------------
     // API - Escenas y transiciones
-    // -------------------------
 
     public void LoadScene(int sceneIndex)
     {
         StartCoroutine(FadeAndLoad(sceneIndex));
         Time.timeScale = 1;
-        UIManager.instance.ShowCursor(true);
+
+        if (UIManager.instance != null)
+            UIManager.instance.ShowCursor(true);
     }
 
     public void StartFadeOut(Action onComplete = null) =>
@@ -85,9 +85,7 @@ public class GameManager : MonoBehaviour
     public void StartFadeIn(Action onComplete = null) =>
         StartCoroutine(FadeInCoroutine(onComplete));
 
-    // -------------------------
     // Helpers privados - Corutinas
-    // -------------------------
     private IEnumerator FadeOutCoroutine(Action onComplete)
     {
         if (fadeImage != null)
